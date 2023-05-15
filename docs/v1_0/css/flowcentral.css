@@ -14,3 +14,7 @@ section.cover .cover-main > p:last-child a {
 section.cover .cover-main > p:last-child a:last-child {
     border-radius: 4px;
 }
+
+.sidebar-nav ul:not(.app-sub-sidebar) > li.collapse::before {
+  transform: rotate(-45deg);
+}
