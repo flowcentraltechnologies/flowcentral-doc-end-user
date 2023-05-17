@@ -15,6 +15,10 @@ section.cover .cover-main > p:last-child a:last-child {
     border-radius: 4px;
 }
 
+.sidebar-nav ul:not(.app-sub-sidebar) > li.collapse::before {
+  transform: rotate(-45deg);
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -36,4 +40,3 @@ section.cover .cover-main > p:last-child a:last-child {
 .content {
   padding-top: 4px;
 }
-
