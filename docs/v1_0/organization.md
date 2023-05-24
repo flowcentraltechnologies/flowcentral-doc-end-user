@@ -96,6 +96,36 @@ The branch form looks like this:
 </table>
 </p>
 
+### Department
+<p id="department">
+Departments are divisions inside your organization. Each department has a distinct role. Departments are the backbone of an organization, and their purpose is to enhance the company and assist it in achieving its goals and objectives. Personnel, production, administrative, and sales departments are a few examples.
+
+The department form looks like this:
+<img src="images/end_user_images/department_form.png" alt="Role form" style="border: 2px solid  gray;">
+<table>
+    <tr>
+        <th>Name of Field</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>
+    <tr>
+        <td>Code</td>
+        <td>A unique code that identifies a department.</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>Short information about the department. Like the name.</td>
+        <td>Yes</td>
+    </tr>    <tr>
+        <td>Status</td>
+        <td>Drop-down list to indicate if the zone is Inactive, Active or Dormant</td>
+        <td>Yes</td>
+    </tr>
+</table>
+</p>
+
+
 ### Role
 <p id="role">
 A role is a position in an organization held by a user (team member or employee). Creating roles in the system allows you to grant users the appropriate level of access based on their position in the organization's structure. Having defined roles in your organization would help to answer the question of “who” does “what.” 
@@ -146,3 +176,16 @@ The role form looks like this:
     </tr>    
 </table>
 </p>
+
+##### Assigning privileges to roles
+Role Privileges must be assigned in the system after an administrator/operator creates a role. This is to ensure that users with a specific role have access to the correct features when they log in to the system, as the system only displays and grants access to the privileges assigned to a specific role.
+To display the Role Privileges form, click on the role created, the Edit button allows you to add privileges to the role.
+<!--The form looks like this:
+<img src="images/end_user_images/privileges_input_form.png" alt="Role form" style="border: 2px solid  gray;">
+<table>
+    <tr>
+        <th>Name of Field</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>-->
+

@@ -1,4 +1,3 @@
-# Home
 ## Welcome to the FlowCentral Platform
 
 
