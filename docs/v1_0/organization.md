@@ -1,4 +1,4 @@
-# Organization
+# Organization (Test)
 Organization in the system is an application that reflects your company’s structure. It helps your organization create an automated flow for all business activities and specifies your business’s hierarchical structure. It allows you to categorize in your organization who has access to what projects. 
 
 You can seamlessly keep track of various zones your organization is located in, your branches worldwide, and the departments in your organization. Your employees will know who to report to and their roles in achieving the goals and objectives of the organization.
