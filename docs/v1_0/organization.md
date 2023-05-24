@@ -5,6 +5,7 @@ You can seamlessly keep track of various zones your organization is located in, 
 
 This application called Organization is made up of many applets. Applets are small computer programs that perform a specific task, for example in this application we have <a href="#zone">Zone</a>, <a href="#branch">Branch</a>, Department and Role, the individual task of these applets combined together is what makes an Organization.
 
+
 ### Zone
 <p id="zone">
 A zone is a location where your business can be found in different parts of the world. It enables you to add and manage records for various organizational zones. You can add a new zone using the Zone form.
