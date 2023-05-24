@@ -1,10 +1,12 @@
 - [Home](home.md)
 - Getting started
-  - [Quick start](quickstart.md)
+    - [Quick start](quickstart.md)
 - [Organization](organization.md)
-  - [Zone](#zone)
-  - [Branch](#branch)
-  - [Department](#department)
-  - [Role](#role)
+    - [Zone](organization.md#zone)
+    - [Branch](organization.md#branch)
+    - [Department](organization.md#department)
+    - [Role](organization.md#role)
+- [Dashboard](dashboard.md)
+    - 
 - Security
 
