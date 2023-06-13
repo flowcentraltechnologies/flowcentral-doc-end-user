@@ -1,12 +1,21 @@
 - [Home](home.md)
 - Getting started
     - [Quick start](quickstart.md)
+- [Dashboard](dashboard.md)
+    -
+- [Data Import](data_import.md)
+    -
 - [Organization](organization.md)
     - [Zone](organization.md#zone)
     - [Branch](organization.md#branch)
     - [Department](organization.md#department)
     - [Role](organization.md#role)
-- [Dashboard](dashboard.md)
+
     - 
-- Security
+- [Security](security.md)
+    - [User](security.md#user)
+    - [User Role](security.md#user)
+    - [User Group](security.md#userGroup)
+    - [Reset/Unlock User](security.md#user)
+    - [Change My Password](security.md#changePassword)
 
