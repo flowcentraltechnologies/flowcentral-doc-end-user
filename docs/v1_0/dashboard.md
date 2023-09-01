@@ -1,10 +1,14 @@
 # Dashboard
 
-A dashboard is a data visualization tool in the system that provides at-a-glance view of your organization’s key performance indicators. It serves as a visual representation for your organization to monitor progress and trends, and it changes with the system’s data.
-
+The dashboard is a data visualization tool in the system that provides a graphical representation of the organization’s information, data and key performance indicators. It serves as a visual representation for the organization to monitor progress and trends, and it changes with the system’s data.
 
 <p class="div1" class="center"><img src="images/end_user_images/sample_dashboard.png"></p>
 
-<p>Dashboards help you gain total visibility of all business activities instantly. The dashboard is the first thing displayed immediately after you log in to the system. For example, the Chief Financial Officer (CFO) dashboard is used by a company's CFO or Finance director to provide visual insights into relevant financial analytics of the organization. It is a tool that helps your organization to maintain a high-level overview of its financial health and overall performance.</p>
-
-
+The dashboard is the first thing displayed immediately after you log in to the system. With the dashboard you can:
+    <ul>
+        •	easily maintain a high-level overview on critical metrics that matter the most to your business.<br> 
+        •	gain total visibility of all business activities instantly.<br>
+        •	track your organization's progress.<br>
+        •	easily make data-driven decisions <br>
+    </ul>
+The content of the dashboard can be configured by the user who have access to the configuration section and the system application. This configuration has been discussed extensively in System>>Dashboard (Click to go to page)
