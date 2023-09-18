@@ -21,5 +21,43 @@ section.cover .cover-main > p:last-child a:last-child {
 .image-size {
     width: 200px;
     height: auto;
-    style= "border: 2px solid  gray";
+}
+.div1 {
+    height: 25em;
+    width: 45em;
+    border: 2px solid  gray;
+    border-bottom: 2px solid  gray;
+    position:static;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.markdown-section blockquote {
+    border-left: 4px solid #42b983;
+    border-left: 4px solid var(--theme-color,#42b983);
+    color: skyblue;
+    margin: 2em 0;
+    padding-left: 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar {
+    background-color: black;
+    color: black;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    text-emphasis-color: white;
+}
+
+.sidebar a:hover {
+    color: skyblue;
 }
