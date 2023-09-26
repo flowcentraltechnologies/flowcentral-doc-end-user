@@ -18,6 +18,13 @@ section.cover .cover-main > p:last-child a:last-child {
 .sidebar-nav ul:not(.app-sub-sidebar) > li.collapse::before {
   transform: rotate(-45deg);
 }
+
+body {
+    font-family: BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+}
+
 .image-size {
     width: 200px;
     height: auto;
@@ -29,6 +36,12 @@ section.cover .cover-main > p:last-child a:last-child {
     border-bottom: 2px solid  gray;
     position:static;
 }
+.startleft {
+    border: 2px solid  gray;
+    border-bottom: 2px solid  gray;
+    position: relative;
+    align-content: flex-start;
+}
 .center {
   margin: auto;
   width: 60%;
@@ -36,10 +49,11 @@ section.cover .cover-main > p:last-child a:last-child {
 }
 .markdown-section blockquote {
     border-left: 4px solid #42b983;
-    border-left: 4px solid var(--theme-color,#42b983);
-    color: skyblue;
+    border-left: 4px solid #42b983;
+    color: black;
     margin: 2em 0;
     padding-left: 20px;
+    background-color:skyblue;
 }
 img {
   display: block;
@@ -47,17 +61,81 @@ img {
   margin-right: auto;
 }
 .sidebar {
-    background-color: black;
-    color: black;
+    background-color: #1d2133;
     padding: 20px;
+    color: white;
 }
 
+
+
 .sidebar a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     text-emphasis-color: white;
 }
 
 .sidebar a:hover {
     color: skyblue;
+}
+myTable {
+  margin: 0 auto;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.left-container {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.left {
+  text-align: left;
+}
+
+#sidebar {
+    width: 250px; /* Adjust the width as needed */
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    width: 0;
+}
+
+.collapsible {
+    cursor: pointer;
+}
+
+.collapse {
+    display: none;
+    list-style-type: none;
+}
+
+.collapsed .collapse {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+        text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }

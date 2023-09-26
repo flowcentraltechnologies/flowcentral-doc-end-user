@@ -1,0 +1,4 @@
+# Report
+A report is a compilation of the business data generated from an application in the system. It organizes the data into tables and presents information to help users track, record, or analyze data. <br>
+The system provides fully customizable reports in applications with flexible options such as different layouts and formats, scheduling the generation of a report, and distributing reports to the intended users, including non-FlowCentral users, through e-mail. <br>
+Manual report processing usually has low accuracy, poor security, and a heavy workload. The report application eases this process such that the organization can automatically generate a report from data quickly, accurately, and without stress.  

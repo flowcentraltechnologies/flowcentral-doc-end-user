@@ -10,7 +10,7 @@ This section highlights the step-by-step process involved in creating a workspac
     <li><b>Click the New button:</b><br>
       This is the first step in creating a new workspace. The New button is located at the top-left part of the page. This button opens a blank form that contains all the basic information needed for the workspace.
       <img src="images/end_user_images/new_workspace.png" alt="User form" style="border: 2px solid  gray;"><br>
-      </li>
+     </li>
     <li><b>Fill the new workspace form: </b><br>
         Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional.
         <br>
@@ -18,7 +18,27 @@ This section highlights the step-by-step process involved in creating a workspac
         <ul>
             •	<b>Name:</b> This is the field where the name for the new workspace is entered.<br>
             •	<b>Description:</b> This is an overall description of the workspace. It lets you know what the workspaceis about.<br>
-            •	<b>Status:</b> This allows us to indicate the status of the workspace at a particular time. This status can be Active,       Inactive, or Dormant.<br>
+            •	<b>Status:</b> This allows us to indicate the status of the workspace at a particular time. This status can be            Active,Inactive, or Dormant.<br>
+            •	<b>Action Buttons:</b> The workspace form also include some buttons, all with their individual actions.
+                o	Save: This button saves the form after all necessary fields have been filled.
+                o	Save and Next: This button saves the form and opens a new form.
+                o	Save and Close: This button saves and closes the form after saving.
+                o	Close: This button closes the form page once clicked.<br>
         </ul>
-    <li>
     </li>
+    <li><b>Save your form:</b>
+        After all fields in the form have been filled, the next step is to save the form. To save this form, click on the Save, Save and Next, or Save and Close (this depends on which saving method you decide to go with) button which is located both at the right-top and at the left-bottom of the form.
+      <img src="images/end_user_images/save_workspace.png" alt="User form" style="border: 2px solid  gray;"><br>
+    </li>
+
+## Child Tab Update
+### PRIVILEGES
+In the system, after a workspace is created, Workspace Privileges need to be assigned to give users access to applications, applets, and dashboards. 
+To assign privileges to the workspace created:
+1.	Edit Privileges child tab:
+    •	Click the Edit button: once clicked this button will direct you to the page where you will assign available privileges to the created workspace
+  
+2.	Assign Privileges: 
+This page comes up on click of the edit button and it contains a list of available privileges. This is where you will assign required privileges to the workspace created. The box on the right-hand side labelled Available privileges contains the privileges available in the system, while the box on the left-hand side labelled Assigned privileges is where the privileges selected will be moved to. 
+For the available privileges to come up select a category and application associated to the workspace you created
+
