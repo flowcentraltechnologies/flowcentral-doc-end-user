@@ -1,13 +1,14 @@
 # Data Import
 
-Data import allows you to upload data from outside sources and combine it with data already in the system. If your company has many systems, you can use data import to transfer data between them or import data from other apps. <br>
-For example, There are two systems, A and B, you can import zones and branches from system A to system B. This can assist you in unifying and organizing your organization's data. Imported data can be used to improve reports and other business tasks.
+Data import allow user to upload data from outside sources and combine it with data already in the system. A company with many systems can use data import to transfer data between them or import data from other external sources. <br>
+For example, There are two systems, A and B, you can import zones and branches from system A to system B. This can assist in unifying and organizing an organization's data. Imported data can be used to improve reports and other business tasks.
 The data import form looks like this:
             <img src="images/end_user_images/data_import1.png" alt="User form" style="border: 2px solid  gray;"><br>
 >Note that this form looks the same for Branch, Country and Zone import.
 
 
 ## What To Import
+<p id="whatToImport">
 The file you import depends on the applet you select. Selecting any of these applets means that you want to import a file that relates to the selected applet. This section contains three applets and these applets are:
 <ol>
     <li>Import Branches</li>
@@ -15,8 +16,10 @@ The file you import depends on the applet you select. Selecting any of these app
     <li>Import Zones</li>
 </ol>
 The file to be imported can be in a .pdf, .doc, .xls or .txt format.
+</p>
 
 ## How to Import data
+<p id="howToImport">
 These are the step by step process involved in importing a file
 <ol>
     <li><b>Click the prefered applet under the data import application on the sidebar menu option </b><br>
@@ -45,3 +48,4 @@ These are the step by step process involved in importing a file
         <img src="images/end_user_images/import_status.png" alt="User form" style="border: 2px solid  gray;"><br>
     </li>
 </ol>
+</p>
