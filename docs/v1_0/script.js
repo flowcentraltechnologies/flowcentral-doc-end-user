@@ -1,10 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const collapsibles = document.querySelectorAll('.collapsible');
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
 
-    collapsibles.forEach(function (collapsible) {
-        collapsible.addEventListener('click', function () {
-            const parentLi = this.parentElement;
-            parentLi.classList.toggle('collapsed');
-        });
-    });
-});
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}

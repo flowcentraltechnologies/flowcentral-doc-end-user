@@ -20,9 +20,20 @@ section.cover .cover-main > p:last-child a:last-child {
 }
 
 body {
-    font-family: BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif;
+    font-family: 'Muli',sans-serif, "Times New Roman", serif;
     font-size: 14px;
-    background-color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #36344D;
+    letter-spacing: .3px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .image-size {
@@ -60,22 +71,79 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.search input {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    width: inherit;
+}
+.content {
+    margin-right: 10px;
+    width: auto;
+    padding-left: 0;
+}
 .sidebar {
     background-color: #1d2133;
-    padding: 20px;
-    color: white;
+    padding: 5px;
+    color: #ffffff;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: left 0.3s ease;
+    z-index: 1;
+    font-family:inherit;
+    display:inherit;
+    font-style: normal;
+    font-weight: 1000;
+    overflow-x: hidden;
+    padding-top: 20px;
+    max-height: 100%;
+    margin-bottom: 0;
+    border-spacing:inherit;
+    margin-left: 0;
+    font-size: 10px;
 }
 
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
 
+.sidebar ul li {
+    margin: 0 0;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+.sidebar ul li:hover {
+    background-color:#3d4153;
+    color: black;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
 
 .sidebar a {
     color: #fff;
     text-decoration: none;
     text-emphasis-color: white;
+    padding: 6px 8px 6px 16px;
+    font-size: 20px;
+    display: block;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
 }
 
 .sidebar a:hover {
-    color: skyblue;
+    color:dodgerblue;
 }
 myTable {
   margin: 0 auto;
@@ -102,16 +170,6 @@ myTable {
 .left {
   text-align: left;
 }
-
-#sidebar {
-    width: 250px; /* Adjust the width as needed */
-    transition: all 0.3s;
-}
-
-#sidebar.active {
-    width: 0;
-}
-
 .collapsible {
     cursor: pointer;
 }
@@ -139,3 +197,42 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+.webkit-scrollbar {
+    width: 10px;
+}
+.webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.webkit-scrollbar-corner {
+    background-color: #1d2133;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.acf-table-of-contents > ul.titles > li > a {
+    font-family: "Montserrat";
+    font-weight: 400;
+    -webkit-font-smoothing: auto;
+    font-size: 17px;
+    font-size: 1.7rem;
+    color: #121212;
+    line-height: 1.7;
+    padding: 5px 0;
+    border-bottom: 1px solid #82888c;
+    text-decoration: none;
+}
+
+
+

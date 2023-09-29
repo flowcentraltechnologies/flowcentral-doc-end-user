@@ -1,4 +1,5 @@
 # System
+<p id="content">
 The system is the central controlling unit of the FlowCentral platform. This application streamlines the management of the platform.<br>
 Many functions can be performed under this application, these functions can be performed using the applets under the system application, some of these functions are:<br>
 <ul>
@@ -15,7 +16,7 @@ Many functions can be performed under this application, these functions can be p
   <li>Add new suggestions made by the members of the organization</li>
 </ul>
 <br>
-
+</p>
 ## Credentials
 Credentials are the account login details of the platform users. It consists of a username and password that members of your organization need to access the platform. You can add new user credentials, update existing ones and generate a report of all available credentials. It also allows you to delete the credentials of users who are no longer part of your organization. This
 ### Add a new credential
@@ -241,10 +242,133 @@ A license is an official permission to use, own or do something. In this case, a
             </tr>
         </table>
 ## Modules
+A module is a component of the system dedicated to a specific business function or process. It is a group of applications with similar functions. Each module is designed for a particular need, making it easy to meet the shifting needs of the organization.<br> 
+As the organization evolves, the modules related to a business process can be simply added to address new requirements. This means that the organization's exact system can be simply built. Each module displays the system characteristics and applications that are associated with it. The system includes modules such as the chart module, notification module, system module, report module, and organization module.
+
+### Module details
+This section provide details of the information each module entails. On click of the applet a grid comes up with a table containing the information of the modules.<br>
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/module_grid.png" alt="ui.png;"><br>
+            </p>
+        </div>
+<br>
+>Note: Each column contains the category of each information and the row contains the different modules available in the system
+<br>
+
+This grid only show some of the information of the module. To check all other information you have to open the module you want to check, and to do this: 
+    <ol>
+        <li><b>Hover:</b> Move your cursor and hover over the name/description of the module you want to check. When you do this the text color of name/description changes to blue with an under line (like that of a link)</li>
+        <li><b>Click:</b> Click the name/description. On click of the name/description a page comes up with the information of the module selected.</li>
+    </ol>
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/module_app.png" alt="ui.png;"><br>
+            </p>
+        </div>The detail of the module has been sectioned into three and these sections all contain information of the selected module.
+### Section A
+This is the form section, it is the main form and it contain the main information of the module.
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/module_A.png" alt="ui.png;"><br>
+            </p>
+        </div>
+        <table>
+            <tr>
+                <th>Name of Field</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>The name of the module</td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>Identifies the name as a module</td>
+            </tr>
+            <tr>
+                <td>Short Code</td>
+                <td>Module identifier</td>
+            </tr>
+            <tr>
+                <td>Sector</td>
+                <td>The sector the module belongs to</td>
+            </tr>
+            <tr>
+                <td>Label</td>
+                <td>Makes the module easy to locate</td>
+            </tr>
+        </table>
+### Section B
+This is the audit section, this section is automatically filled with the details of the owner of the account used in creating or making changes to the module.
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/module_B.png" alt="ui.png;"><br>
+            </p>
+        </div>
+This section is automatically filled by the system with the details of the account used in creating, inspecting or modifying this account. These details include:
+        <img src="images/end_user_images/audit.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+
+<table>
+    <tr>
+        <th>Name of Field</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Created By</td>
+        <td>This is the name of the person who created this account.</td>
+    </tr>
+    <tr>
+        <td>Updated By</td>
+        <td>This is the name of the last person that updated this account.</td>
+    </tr>
+    <tr>
+        <td>Created On</td>
+        <td>This is the date and time that this user’s account was created.</td>
+    </tr>
+    <tr>
+        <td>Updated On</td>
+        <td>This is the date and time that the last update was made on this user’s account.</td>
+    </tr>
+</table>
+</p><br>
+### Section C
+This is the child tab section. This comes up after the main form has been saved.
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/module_C.png" alt="ui.png;"><br>
+            </p>
+        </div>
+
 ## Scheduled Task History
 ## Scheduled Tasks
 ## Sectors
+A sector is a group of modules in the system. It visually represents the organization’s activities by grouping all related applications into a sector. A color theme can differentiate each sector. <br> 
+Sectors ease the management of applications. For example, ShowCase Business Enterprise is a financial organization with 60 applications. They have different applications for business activities such as lending, internet banking, cash flow management, and investing. There are 15 applications running for each business activity, totaling 60 applications. The system can help to organize all the applications under each action into different sectors, thereby providing a quick visual representation of all the organization’s activities.
+
 ## Suggestions
+Suggestions return a list of suggested search terms that are relevant to a search experience. It suggests words as you type based on your history. Users can find what they’re looking for in the system with the search box. The search box needs to be effective in helping users find content quickly, which is why this feature is part of the system. You can add new suggestions to the system by adding the Suggestion Type ID and the suggested text.
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/suggestion_form.png" alt="ui.png;"><br>
+            </p>
+        </div>
+<table>
+    <tr>
+        <th>Name of Field</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Suggestion Type ID</td>
+        <td>Suggestion type identifier. This field is a database search field, this field searches the system database for the typed word. To see a list of available options without typing, click the field and press ypur keyboard's spacebar.</td>
+    </tr>
+    <tr>
+        <td>Suggestion</td>
+        <td>The suggested text, this is like an idea for consideration</td>
+    </tr>
+</table>
+
+
 ## System Parameters
 ## Tenants
 ## UI Options
@@ -257,16 +381,16 @@ This section highlights the step-by-step process involved in customizing the int
 <ol>
   <li><b>Click the UI Option applet on the sidebar:</b><br>
       This is the first step in customizing the interface. This applet is located on the sidebar menu on the left side of the system. Once this applet is clicked a blank form comes up, this form contains all the information needed for customization of the interface.
-                <div class="centered-container">
-            <p class="div1 left">
-        <img src="images/end_user_images/ui.png" alt="ui.png;"><br>
-            </p>
-          </div>
+        <img src="images/end_user_images/ui_options.png" alt="ui.png;"><br>
       </li>
     <li><b>Fill the new User form: </b><br>
         This form contains fields for the collection of information needed to customize the that is being created, these fields are:
         <br>
-        <img src="images/end_user_images/ui_options.png" alt="ui.png;"><br>
+        <div class="centered-container">
+            <p class="div1 left">
+                <img src="images/end_user_images/ui.png" alt="ui.png;"><br>
+            </p>
+        </div>        
         <br>
         <table border="1">
           <thead>
