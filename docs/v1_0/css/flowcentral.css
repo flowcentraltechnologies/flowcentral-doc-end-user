@@ -83,13 +83,10 @@ img {
     padding-left: 0;
 }
 .sidebar {
-    background-color: #1d2133;
+    background-color: #24303f;
     padding: 5px;
     color: #ffffff;
     width: 300px;
-    position: fixed;
-    top: 0;
-    left: 0;
     transition: left 0.3s ease;
     z-index: 1;
     font-family:inherit;
@@ -98,11 +95,15 @@ img {
     font-weight: 1000;
     overflow-x: hidden;
     padding-top: 20px;
-    max-height: 100%;
     margin-bottom: 0;
     border-spacing:inherit;
     margin-left: 0;
     font-size: 10px;
+}
+.fas fa-caret-down{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
 }
 
 .sidebar ul {
@@ -114,8 +115,7 @@ img {
     margin: 0 0;
     border-radius: 5px;
     padding: 5px;
-    border-bottom: 1px solid #333;
-    border-top: 1px solid #333;
+    margin-left: auto;
 }
 .sidebar ul li:hover {
     background-color:#3d4153;
@@ -217,11 +217,11 @@ th {
 .icon-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:flex-end;
 }
 
 
-.acf-table-of-contents > ul.titles > li > a {
+.table-of-contents > ul.titles > li > a {
     font-family: "Montserrat";
     font-weight: 400;
     -webkit-font-smoothing: auto;

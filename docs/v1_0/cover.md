@@ -1,4 +1,4 @@
-![logo](/images/flowcentral_cover_logo.png)
+<!--![logo](/images/flowcentral_cover_logo.png)-->
 
 # FlowCentral Documentation (End-User) <small>v1.0</small>
 

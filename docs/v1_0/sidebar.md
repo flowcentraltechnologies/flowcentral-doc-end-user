@@ -1,12 +1,13 @@
 <nav id="sidebar">
         <ul>
             <li><a href="#home">Home</a></li>
+            <li><a href="#toc">Home</a></li>
             <li><a href="#dashboard">Dashboard</a></li>
-            <li><a href="#data_import">Data Import<i class="fas fa-caret-down icon"></a></li>
+            <li><a href="#data_import">Data Import<i class="fas fa-caret-right"></i></a></li>
                 <ul>
                     <li><a href="#data_import#whatToImport">What To Import</a></li>
                     <li><a href="#data_import#howToImport">How To Import</a></li>
-                </ul></i>
+                </ul>
             <li><a href="#integration">Integration</a></li>
                 <ul>
                     <li><a href="#integration#endpointConfiguration">Endpoint Configuration</a></li>
@@ -21,9 +22,9 @@
                         <ul>
                             <li><a href="#create_user">Create User</a></li>
                         </ul>
-                    <li><a href="#security#changeMyPassword">Change Password</a></li>
-                    <li><a href="#security#resetUnlockUser">Reset/Unlock User</a></li>
-                    <li><a href="#security#userGroup">User Groups</a></li>
+                    <li><a href="#changeMyPassword">Change Password</a></li>
+                    <li><a href="#reset_unlock_user">Reset/Unlock User</a></li>
+                    <li><a href="#user_group">User Groups</a></li>
                 </ul>            
             <li><a href="#system">System</a></li>
             <li><a href="#workflow">Workflow</a></li>
