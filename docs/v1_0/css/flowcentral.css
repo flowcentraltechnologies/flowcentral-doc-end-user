@@ -30,6 +30,8 @@ body {
     padding-bottom: 20px;
     text-align: left;
     padding-left: 0;
+    margin-right: 30%;
+    word-wrap: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,6 +67,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 2em 0;
     padding-left: 20px;
     background-color:skyblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    align-content: center;
 }
 img {
   display: block;
@@ -77,11 +82,7 @@ img {
     padding: 10px;
     width: inherit;
 }
-.content {
-    margin-right: 10px;
-    width: auto;
-    padding-left: 0;
-}
+
 .sidebar {
     background-color: #24303f;
     padding: 5px;
@@ -93,17 +94,13 @@ img {
     display:inherit;
     font-style: normal;
     font-weight: 1000;
-    overflow-x: hidden;
+    overflow: auto;
+    text-overflow: clip;
     padding-top: 20px;
     margin-bottom: 0;
     border-spacing:inherit;
     margin-left: 0;
     font-size: 10px;
-}
-.fas fa-caret-down{
-    display: flex;
-    justify-content:flex-start;
-    align-items: flex-start;
 }
 
 .sidebar ul {
@@ -170,18 +167,6 @@ myTable {
 .left {
   text-align: left;
 }
-.collapsible {
-    cursor: pointer;
-}
-
-.collapse {
-    display: none;
-    list-style-type: none;
-}
-
-.collapsed .collapse {
-    display: block;
-}
 
 table {
     border-collapse: collapse;
@@ -220,8 +205,7 @@ th {
   align-items:flex-end;
 }
 
-
-.table-of-contents > ul.titles > li > a {
+.toc > ul.titles > li > a {
     font-family: "Montserrat";
     font-weight: 400;
     -webkit-font-smoothing: auto;
@@ -233,6 +217,99 @@ th {
     border-bottom: 1px solid #82888c;
     text-decoration: none;
 }
+.toc-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.toc-container a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+.toc-entry a.nav-link {
+    color: var(--pst-color-text-muted);
+    display: block;
+    margin-left: -1rem;
+    padding: 0.125rem 0 0.125rem 1rem;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
 
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.sub-menu {
+    display: none;
+    background-color: #ddd;
+}
+
+.dropdown-content a:hover + .sub-menu {
+    display: block;
+}
 

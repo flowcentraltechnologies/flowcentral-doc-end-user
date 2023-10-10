@@ -1,33 +1,32 @@
-<nav id="sidebar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#toc">Home</a></li>
-            <li><a href="#dashboard">Dashboard</a></li>
-            <li><a href="#data_import">Data Import<i class="fas fa-caret-right"></i></a></li>
-                <ul>
-                    <li><a href="#data_import#whatToImport">What To Import</a></li>
-                    <li><a href="#data_import#howToImport">How To Import</a></li>
-                </ul>
-            <li><a href="#integration">Integration</a></li>
-                <ul>
-                    <li><a href="#integration#endpointConfiguration">Endpoint Configuration</a></li>
-                    <li><a href="#integration#readConfiguration">Read Configuration</a></li>
-                </ul>
-            <li><a href="#notification">Notificaton</a></li>
-            <li><a href="#organization">Organization</a></li>
-            <li><a href="#report">Report</a></li>
-            <li><a href="#security">Security</a></li>
-                <ul>
-                    <li><a href="#user">Users</a></li>
-                        <ul>
-                            <li><a href="#create_user">Create User</a></li>
-                        </ul>
-                    <li><a href="#changeMyPassword">Change Password</a></li>
-                    <li><a href="#reset_unlock_user">Reset/Unlock User</a></li>
-                    <li><a href="#user_group">User Groups</a></li>
-                </ul>            
-            <li><a href="#system">System</a></li>
-            <li><a href="#workflow">Workflow</a></li>
-            <li><a href="#workspace">Workspace</a></li>
-        </ul>
-</nav>
+- [Getting started](home.md)
+- [Dashboard](dashboard.md)
+- [Data Import](data_import.md)
+    - [What to Import](data_import.md#whatToImport)
+    - [How to Import](data_import.md#howToImport)
+- [Report](report.md)
+- [Security](security.md)
+    - [User](user.md)
+        - [Create User](create_user.md)
+        - [Child Tab Update](user_child_tab.md)
+    - [User Group](user_group.md)
+    - [Reset/Unlock User](reset_unlock_user.md)
+    - [Change My Password](changePassword.md)
+- [System](system.md)
+    - [Credentials](system.md#credentials)
+    - [Dashboard](system.md#dashboard)
+    - [Download Log](system.md#download_log)
+    - [Environment Variable](system.md#environment_variable)
+    - [Licensing](system.md#licensing)
+      - [Generate License Request](system.md#generate)
+      - [Load License Request](system.md#enterprise)
+    - [Module](system.md#module)
+    - [Scheduled Task](system.md#scheduled_task)
+    - [Scheduled Task History](system.md#scheduled_task_history)
+    - [Sector](system.md#sector)
+    - [Suggestion](system.md#suggestion)
+    - [System Parameters](system.md#system_parameters)
+    - [UI Options](#system.md#ui_options)
+- [Integration](integration.md)
+- [Notification](notification.md)
+- [Workflow](workflow.md)
+- [Workspace](workspace.md)

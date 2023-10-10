@@ -1,4 +1,4 @@
-<p id="table-of-contents">
+<p id="table-of-contents" class="toc">
 
 # [Getting Started](home.md)
 # [Data Import](data_import.md)
