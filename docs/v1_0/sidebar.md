@@ -17,7 +17,7 @@
     - [Download Log](system.md#download_log)
     - [Environment Variable](system.md#environment_variable)
     - [Licensing](system.md#licensing)
-      - [Generate License Request](system.md#generate)
+      - [Generate License Request](system.md#generateRequestLicense)
       - [Load License Request](system.md#enterprise)
     - [Module](system.md#module)
     - [Scheduled Task](system.md#scheduled_task)
