@@ -1,11 +1,6 @@
 # Dashboard
 
 The dashboard is a data visualization tool in the system that provides a graphical representation of the organization’s information, data and key performance indicators. It serves as a visual representation for the organization to monitor progress and trends, and it changes with the system’s data.
-  <div class="left-container">
-    <p class="div1 center">
-      <img src="images/end_user_images/sample_dashboard.png">
-    </p>
-  </div>
   <div class="centered-container">
     <p class="div1 left">
       <img src="images/end_user_images/sample_dashboard.png">
@@ -19,5 +14,4 @@ The dashboard is the first thing displayed immediately a user log in to the syst
         •	track your organization's progress.<br>
         •	easily make data-driven decisions <br>
     </ul>
-The content of the dashboard can be configured by the user who have access to the configuration section and the system application. This configuration has been discussed extensively in System>>Dashboard (Click to go to page) [System](#main)
-
+The content of the dashboard can be configured by the user who have access to the configuration section and the system application. This configuration has been discussed extensively in <a href="system.md">System</a>.

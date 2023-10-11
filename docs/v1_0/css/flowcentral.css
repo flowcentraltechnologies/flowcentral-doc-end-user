@@ -20,9 +20,22 @@ section.cover .cover-main > p:last-child a:last-child {
 }
 
 body {
-    font-family: BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif;
+    font-family: 'Muli',sans-serif, "Times New Roman", serif;
     font-size: 14px;
-    background-color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #36344D;
+    letter-spacing: .3px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 0;
+    margin-right: 30%;
+    word-wrap: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .image-size {
@@ -54,28 +67,80 @@ body {
     margin: 2em 0;
     padding-left: 20px;
     background-color:skyblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    align-content: center;
 }
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.sidebar {
-    background-color: #1d2133;
-    padding: 20px;
-    color: white;
+.search input {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    width: inherit;
 }
 
+.sidebar {
+    background-color: #24303f;
+    padding: 5px;
+    color: #ffffff;
+    width: 300px;
+    transition: left 0.3s ease;
+    z-index: 1;
+    font-family:inherit;
+    display:inherit;
+    font-style: normal;
+    font-weight: 1000;
+    overflow: auto;
+    text-overflow: clip;
+    padding-top: 20px;
+    margin-bottom: 0;
+    border-spacing:inherit;
+    margin-left: 0;
+    font-size: 10px;
+}
 
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin: 0 0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: auto;
+}
+.sidebar ul li:hover {
+    background-color:#3d4153;
+    color: black;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
 
 .sidebar a {
     color: #fff;
     text-decoration: none;
     text-emphasis-color: white;
+    padding: 6px 8px 6px 16px;
+    font-size: 20px;
+    display: block;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
 }
 
 .sidebar a:hover {
-    color: skyblue;
+    color:dodgerblue;
 }
 myTable {
   margin: 0 auto;
@@ -103,28 +168,6 @@ myTable {
   text-align: left;
 }
 
-#sidebar {
-    width: 250px; /* Adjust the width as needed */
-    transition: all 0.3s;
-}
-
-#sidebar.active {
-    width: 0;
-}
-
-.collapsible {
-    cursor: pointer;
-}
-
-.collapse {
-    display: none;
-    list-style-type: none;
-}
-
-.collapsed .collapse {
-    display: block;
-}
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -139,3 +182,134 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+.webkit-scrollbar {
+    width: 10px;
+}
+.webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.webkit-scrollbar-corner {
+    background-color: #1d2133;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+.toc > ul.titles > li > a {
+    font-family: "Montserrat";
+    font-weight: 400;
+    -webkit-font-smoothing: auto;
+    font-size: 17px;
+    font-size: 1.7rem;
+    color: #121212;
+    line-height: 1.7;
+    padding: 5px 0;
+    border-bottom: 1px solid #82888c;
+    text-decoration: none;
+}
+.toc-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.toc-container a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+.toc-entry a.nav-link {
+    color: var(--pst-color-text-muted);
+    display: block;
+    margin-left: -1rem;
+    padding: 0.125rem 0 0.125rem 1rem;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.sub-menu {
+    display: none;
+    background-color: #ddd;
+}
+
+.dropdown-content a:hover + .sub-menu {
+    display: block;
+}
+
