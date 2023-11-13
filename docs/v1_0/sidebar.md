@@ -9,7 +9,6 @@
         - [Create User](create_user.md)
         - [Child Tab Update](user_child_tab.md)
     - [User Group](user_group.md)
-    - [Reset/Unlock User](reset_unlock_user.md)
     - [Change My Password](changePassword.md)
 - [System](system.md)
     - [Credentials](system.md#credentials)

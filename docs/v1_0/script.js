@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // This code will run after the page is fully loaded.
   var coll = document.getElementsByClassName("collapsible");
   var i;
   for (i = 0; i < coll.length; i++) {

@@ -5,11 +5,11 @@ A user must be added to the system before being given privileges and access to t
 <ol>
   <li><b>Click the New button:</b><br>
       This is the first step in creating a new user. The New button is located at the top-left part of the user page. This button opens a blank form that contains all the information needed for the user.
-      <img src="images/end_user_images/new_button.png" alt="User form" style="border: 2px solid  gray;"><br>
+      <img src="images/end_user_images/new_button.png" alt="User form" class="pic"><br>
       </li>
     <li><b>Fill the new User form: </b><br>
       Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional.<br>
-        >Note: Any field with the red asterisk <span style="color: red;">*</span> is a mandatory field. And this asterisk means that the field is required to be filled before the form can be saved.<br><br>
+        >> Note: Any field with the red asterisk <span style="color: red;">*</span> is a mandatory field. And this asterisk means that the field is required to be filled before the form can be saved.<br><br>
         This form contains fields for the collection of information from the user that is being created, these fields are:
         <br>
         <table>
@@ -66,17 +66,17 @@ A user must be added to the system before being given privileges and access to t
     <li><b>Save your form:</b><br>
         After all necessary fields in the form have been filled, the next step is to save the form. Before saving a new user, this form must be submitted for approval and must also be approved by the proper authority. 
         To submit this form for approval, click on the Submit for Approval button which is located both at the right-top and at the left-bottom of the form.<br>
-      <img src="images/end_user_images/submit_for%20_approval.png" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/submit_for%20_approval.png" alt="Save User form" class="pic"><br>
     </li>
     <li><b>Approve or Reject a new User:</b>
         After clicking the Submit for Approval button, this form is submitted to workflow for approval. Workflow is also an application on the sidebar, on click of this workflow some applets come up below it one of which is labeled My Work Items.<br>
-        <img src="images/end_user_images/workflow.png" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/workflow.png" alt="Approve User form" class="pic"><br>
             Click My Work Items to view the list of pending workflow items. These items are being filtered using the drop-down located on the top-right of the form.
-        <img src="images/end_user_images/filter.png" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/filter.png" alt="User form Filter" class="pic"><br>
         The option to choose depends on what is needed or what is being worked on, and in this case, the User option should be selected to view the pending workflow items available for the user option. The grid with the pending workflow items for the user option comes up when the option is selected. Click the View button to view the items in the grid. <br>
-        <img src="images/end_user_images/user_option.png" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/user_option.png" alt="User form options" class="pic"><br>
         The user form that was submitted for approval comes up on click of the view button. The form that was submitted comes up with the provided information, an action must be performed to proceed, these actions are:
-        <img src="images/end_user_images/buttons.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/buttons.jpg" alt="User form button" class="pic"><br>
         <ul>
             •	<b>Approve:</b> This is the button to be clicked to officially accept the creation of the new user. Once clicked the      new user is saved in the user applet and the user also gains access to assigned privileges.<br>
             •	<b>Reject:</b> This is the button to be clicked to officially decline the creation of the new user. <br>
