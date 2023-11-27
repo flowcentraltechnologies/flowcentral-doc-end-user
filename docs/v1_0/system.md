@@ -242,6 +242,7 @@ A license is an official permission to use, own or do something. In this case, a
             </tr>
         </table>
     </ol>
+
 ### Generate License Request
 To get a License for a specific edition, a formal request must be initiated by an authorized user to access and use the license. Here is how to achieve this:
 <ol>
