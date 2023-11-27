@@ -1,0 +1,10 @@
+nav:
+    - Quickstart: 'index.md'
+    - Platform Overview: 'platformOverview.md'
+    - Basics: 'basics.md'
+    - Applications: 'applications.md'
+    - Applets: 'applets.md'
+    - Applet Types: 'appletTypes.md'
+    - Applet Filters: 'appletFilters.md'
+    - Applet Properties: 'appletProperties.md'
+theme: readthedocs

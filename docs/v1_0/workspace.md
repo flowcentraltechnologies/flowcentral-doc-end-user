@@ -9,7 +9,7 @@ This section highlights the step-by-step process involved in creating a workspac
 <ol>
     <li><b>Click the New button:</b><br>
       This is the first step in creating a new workspace. The New button is located at the top-left part of the page. This button opens a blank form that contains all the basic information needed for the workspace.
-      <img src="images/end_user_images/new_workspace.png" alt="User form" style="border: 2px solid  gray;"><br>
+      <img src="images/end_user_images/new_workspace.png" alt="new workspace" class="pic"><br>
      </li>
     <li><b>Fill the new workspace form: </b><br>
         Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional.
@@ -28,7 +28,7 @@ This section highlights the step-by-step process involved in creating a workspac
     </li>
     <li><b>Save your form:</b>
         After all fields in the form have been filled, the next step is to save the form. To save this form, click on the Save, Save and Next, or Save and Close (this depends on which saving method you decide to go with) button which is located both at the right-top and at the left-bottom of the form.
-      <img src="images/end_user_images/save_workspace.png" alt="User form" style="border: 2px solid  gray;"><br>
+      <img src="images/end_user_images/save_workspace.png" alt="save workspace" class="pic"><br>
     </li>
     <br>
 </ol>

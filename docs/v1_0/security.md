@@ -7,5 +7,5 @@ The system maintains a high security standard which help protect your sensitive 
     •	managing existing users<br>
 </ul>
 The security application can be seen on the sidebar located on the left-hand side of the system, this application contains four applets that help in making some specific changes and configurations. <br>
-<img src="images/end_user_images/security_app.png" alt="User form" style="border: 2px solid  gray;">
-
+        <img src="images/end_user_images/security_app.png" alt="security_app" class="pic"><br>
+        

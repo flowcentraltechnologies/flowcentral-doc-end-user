@@ -40,7 +40,7 @@ To assign a role or make changes to the assigned role:
         </ul>
 </ol>
 
-## LOGIN EVENT
+### LOGIN EVENT
 Login Events is another child tab in the user applet, it contains records or logs that capture the specifics of user login activities within the system.<br>
 <img src="images/end_user_images/login_event.jpg" alt="User form" style="border: 2px solid  gray;"><br>
 <table>
@@ -71,7 +71,7 @@ Login Events is another child tab in the user applet, it contains records or log
 </table>
 </p><br>
 
-## Branch Details
+### Branch Details
 This child tab contains the information of the branch where this user is assigned or works. A branch is a separate location of the company that is separated from the main office. These details include:<br>
         <img src="images/end_user_images/branch_detail.jpg" alt="User form" style="border: 2px solid  gray;"><br>
 
@@ -105,7 +105,7 @@ This child tab contains the information of the branch where this user is assigne
 </table>
 </p><br>
 
-## Account Details
+### Account Details
 This child tab contains the details of some activities related to this particular account.
         <img src="images/end_user_images/account_details.jpg" alt="User form" style="border: 2px solid  gray;"><br>
 These activities are:
@@ -133,7 +133,7 @@ These activities are:
 </table>
 </p><br>
 
-## Audit
+### Audit
 This section is automatically filled by the system with the details of the account used in creating, inspecting or modifying this account. These details include:
         <img src="images/end_user_images/audit.jpg" alt="User form" style="border: 2px solid  gray;"><br>
 

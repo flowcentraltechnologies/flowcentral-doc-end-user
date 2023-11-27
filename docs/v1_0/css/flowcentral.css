@@ -30,12 +30,24 @@ body {
     padding-bottom: 20px;
     text-align: left;
     padding-left: 0;
-    margin-right: 30%;
     word-wrap: normal;
+    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+    font-size: 1000px;
+}
+h2{
+    font-size: 14px;
+}
+h3{
+    font-size: 14px;
+}
+h4,h5,h6{
+    font-size: 14px;
 }
 
 .image-size {
@@ -75,6 +87,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.pic{
+    border:1px solid gray;
 }
 .search input {
     border: 1px solid #007bff;
@@ -137,6 +152,7 @@ img {
     width: 100%;
     text-align: left;
     cursor: pointer;
+    overflow: visible;
 }
 
 .sidebar a:hover {
