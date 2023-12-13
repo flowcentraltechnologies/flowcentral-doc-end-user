@@ -8,8 +8,8 @@ A user must be added to the system before being given privileges and access to t
       <img src="images/end_user_images/new_button.png" alt="User form" class="pic"><br>
       </li>
     <li><b>Fill the new User form: </b><br>
-      Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional.<br>
-        >> Note: Any field with the red asterisk <span style="color: red;">*</span> is a mandatory field. And this asterisk means that the field is required to be filled before the form can be saved.<br><br>
+      Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional.
+        >>Note: Any field with the red asterisk <span style="color: red;">*</span> is a mandatory field. And this asterisk means that the field is required to be filled before the form can be saved.<br>
         This form contains fields for the collection of information from the user that is being created, these fields are:
         <br>
         <table>
@@ -76,7 +76,7 @@ A user must be added to the system before being given privileges and access to t
         The option to choose depends on what is needed or what is being worked on, and in this case, the User option should be selected to view the pending workflow items available for the user option. The grid with the pending workflow items for the user option comes up when the option is selected. Click the View button to view the items in the grid. <br>
         <img src="images/end_user_images/user_option.png" alt="User form options" class="pic"><br>
         The user form that was submitted for approval comes up on click of the view button. The form that was submitted comes up with the provided information, an action must be performed to proceed, these actions are:
-        <img src="images/end_user_images/buttons.jpg" alt="User form button" class="pic"><br>
+        <img src="images/end_user_images/buttons.jpg" alt="User form button" class="pic pic-resize"><br>
         <ul>
             •	<b>Approve:</b> This is the button to be clicked to officially accept the creation of the new user. Once clicked the      new user is saved in the user applet and the user also gains access to assigned privileges.<br>
             •	<b>Reject:</b> This is the button to be clicked to officially decline the creation of the new user. <br>

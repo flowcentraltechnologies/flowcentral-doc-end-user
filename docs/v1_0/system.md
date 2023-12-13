@@ -18,6 +18,7 @@ Many functions can be performed under this application, these functions can be p
 </p>
 
 ## Credentials
+<p id="credentials">
 Credentials are the account login details of the platform users. It consists of a username and password that members of your organization need to access the platform. You can add new user credentials, update existing ones and generate a report of all available credentials. It also allows you to delete the credentials of users who are no longer part of your organization. This
 ### Add a new credential
 To be able to manage the credentials of a user, the credential must exist. This section highlights the step-by-step process involved in adding new credentials for an existing user.
@@ -53,7 +54,7 @@ To be able to manage the credentials of a user, the credential must exist. This 
 <p id="dashboard">
 The dashboard application displays the list of various dashboards available in the system while this dashboard applet under the system application allows you to manage the available dashboards. Dashboards can be activated or deactivated using this applet.<br><br>
 On click of the Dashboard applet, a page comes up with a grid containing information of the various dashboards available in the system. This page also provide a dropdown list of actions that can be performed on the selected dashboard.<br>
-        <img src="images/end_user_images/manage_dashboard.png" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/manage_dashboard.png" alt="User form" class="pic"><br>
         <table>
             <tr>
                 <th>Name of Field</th>
@@ -90,6 +91,7 @@ On click of the Dashboard applet, a page comes up with a grid containing informa
 </p>
 
 ## Download Logs
+<p id="downloadLog">
 The download log keeps track of all the resources downloaded from the system. Users can access the system’s resources, such as documents, images, and files. It is essential because it help organizations to monitor all download engagements associated with resources and records information such as the user’s IP address, computer name, and when the download occurred. It records “who” downloads “what” and “when”.<br><br>
 On click of the applet a grid comes up with columns containing information of the download logs
         <img src="images/end_user_images/download_log.png" alt="User form" style="border: 2px solid  gray;"><br>
@@ -125,6 +127,7 @@ On click of the applet a grid comes up with columns containing information of th
         </table>
 
 ## Environment Variables
+<p id="environmentVariable">
 Environment variables are fundamental components used to configure software applications on the system. They are essential to the operating environment in which these applications function.<br> In a similar way that one's surroundings influence a person, environment variables play a crucial role in shaping the conditions under which software applications operate. These variables are characterized by their configurability, allowing for dynamic adjustments as needed.
 ### Add an Environment Variable
 This section highlights the step-by-step process involved in adding a new environmental variable.
@@ -156,6 +159,7 @@ This section highlights the step-by-step process involved in adding a new enviro
 </ol><br>
 
 ## Licensing
+<p id="licensing">
 A license is an official permission to use, own or do something. In this case, a license is granted by FlowCentral Technologies to your organization. This section is intended to help you understand the FlowCentral editions and the various entitlements and restrictions associated with each edition. Currently, there are two editions of the FlowCentral platform:<br>
 <ol>
        <b> 1.	Standard:</b>
@@ -285,6 +289,7 @@ This is simply uploading the License into the system. Here is how to achieve thi
 </ol><br>
 
 ## Modules
+<p id="modules">
 A module is a component of the system dedicated to a specific business function or process. It is a group of applications with similar functions. Each module is designed for a particular need, making it easy to meet the shifting needs of the organization.<br> 
 As the organization evolves, the modules related to a business process can be simply added to address new requirements. This means that the organization's exact system can be simply built. Each module displays the system characteristics and applications that are associated with it. The system includes modules such as the chart module, notification module, system module, report module, and organization module.<br>
 ### Module details
@@ -479,7 +484,23 @@ This is the child tab that contains the list of the applications available for e
             <td>This is the date and time that the last update was made on this user’s account.</td>
           </tr>
         </table>
+
+## Scheduled Tasks
+<p id="scheduletasl">
+A scheduled task helps to perform automated activities in the system. It allows users to create timed actions without any user input. These actions can be executed periodically based on the form's set time and date values. A scheduled task can be set up to send meeting details to employees, send automated emails, set project deadlines, and more. A scheduled task has an event or time-based trigger to know when to start a task, and the action that task would perform. Tasks can be set to run at specified intervals (seconds, minutes, hours). This saves time and increases the overall efficiency of the organization.
+
+### Schedule a task
+section highlights the step-by-step process involved in scheduling a task:
+<ol>
+       <li><b>1. Click the New button: </b>
+        This is the first step in creating a new user. The New button is located at the top-right part of the page. This button opens a blank form that contains all the information needed to schedule a task.
+        </li>
+        <li><b>2. Fill the form: </b>
+        Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional fields.
+        </li>
+</ol>
 ## Scheduled Task History
+<p id="scheduletaskHistory">
 This applet displays the record of scheduled tasks in the system. It shows the task schedule, its name, start date, finish date, and the task's status.
             <p class="left">
                 <img src="images/end_user_images/schedule_history.png" alt="ui.png" class="pic"><br>
@@ -518,26 +539,14 @@ This applet displays the record of scheduled tasks in the system. It shows the t
             </tr>
           </tbody>
         </table>
-## Scheduled Tasks
-A scheduled task helps to perform automated activities in the system. It allows users to create timed actions without any user input. These actions can be executed periodically based on the form's set time and date values. A scheduled task can be set up to send meeting details to employees, send automated emails, set project deadlines, and more. A scheduled task has an event or time-based trigger to know when to start a task, and the action that task would perform. Tasks can be set to run at specified intervals (seconds, minutes, hours). This saves time and increases the overall efficiency of the organization.
-
-### Schedule a task
-section highlights the step-by-step process involved in scheduling a task:
-<ol>
-       <li><b>1. Click the New button: </b>
-        This is the first step in creating a new user. The New button is located at the top-right part of the page. This button opens a blank form that contains all the information needed to schedule a task.
-        </li>
-        <li><b>2. Fill the form: </b>
-        Once the New button is clicked a new form comes up. This form contains some mandatory fields that cannot be blank and also some other fields that are not mandatory and can be blank because they are optional fields.
-        </li>
-</ol>
-
 
 ## Sectors
+<p id="sectors">
 A sector is a group of modules in the system. It visually represents the organization’s activities by grouping all related applications into a sector. A color theme can differentiate each sector. <br> 
 Sectors ease the management of applications. For example, ShowCase Business Enterprise is a financial organization with 60 applications. They have different applications for business activities such as lending, internet banking, cash flow management, and investing. There are 15 applications running for each business activity, totaling 60 applications. The system can help to organize all the applications under each action into different sectors, thereby providing a quick visual representation of all the organization’s activities.
 
 ## Suggestions
+<p id="suggestions">
 Suggestions return a list of suggested search terms that are relevant to a search experience. It suggests words as you type based on your history. Users can find what they’re looking for in the system with the search box. The search box needs to be effective in helping users find content quickly, which is why this feature is part of the system. You can add new suggestions to the system by adding the Suggestion Type ID and the suggested text.
         <div class="centered-container">
             <p class="div1 left">
@@ -593,7 +602,9 @@ Suggestions return a list of suggested search terms that are relevant to a searc
     </table>
 </p>
 ## Tenants
+
 ## UI Options
+<p id="uioptions">
 The User Interface Options (UI Options) component of the system allows users to customize the presentation of the user interface and content resources of the login page so that they can be personalized to individual user needs and general organizational preferences.
 
 ### Customize the User Interface
@@ -642,6 +653,9 @@ This section highlights the step-by-step process involved in customizing the int
         </table>
     </li>
     <li>
-        <li><b>Save your form:</b><br>
+        <b>Save your form:</b><br>
+            After all fields in the form have been filled, the next step is to save the form. To save this form, click the Save button to save the form, this button at the right-top of the form.
+      <img src="images/end_user_images/save_uioption.png" alt="save workspace" class="pic"><br>
+        After clicking the save button, a confirmation message pops up, this is green in color if it was succesfully saved and red if not successfully saved. If the operation is not successful contact the technical department for assistance.
     </li>
 </ol>

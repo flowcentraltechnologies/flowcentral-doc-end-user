@@ -33,5 +33,5 @@ This section highlights the step-by-step process involved in creating a new user
             </ul>
         </li>
     </ol>
->>Any field with the red asterisk * is a mandatory field. And this asterisk means that the field is required to be filled before the form can be saved
+>Any field with the red asterisk <span>* is a mandatory field. And this asterisk means that the field is required to be filled before the form can be saved
 </p>
