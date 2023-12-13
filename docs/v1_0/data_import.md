@@ -31,7 +31,7 @@ These are the step by step process involved in importing a file
     </li>
     <li><b>Select Data:</b><br>
         This is where you select the file/data you want to upload from your computer. Pick the file and click open or enter to select.
-        <img src="images/end_user_images/select_file.png" alt="select file" class="pic"><br>
+        <img src="images/end_user_images/select_file.png" alt="select file" class="pic pic-resize"><br>
     </li>
     <li><b>File with Header?</b><br>
         This checkbox lets you choose if your selected file should be with or without a header

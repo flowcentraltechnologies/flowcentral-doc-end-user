@@ -15,32 +15,35 @@ After adding a new user account to the system, you need to assign a role(s) to g
 A Role is a duty assigned to the user. The user is expected to carry out the duties and responsibilities relating to the assigned role. Each role comes with different privileges, which means that you will only have privileges to the part of the system that is associated with your role, and this also means that what a developer will have access to is different from what a business analyst will have access to. <br>
 To assign a role or make changes to the assigned role:
 <ol>
-    1.	Edit Role child tab:<br>
-            •	Click the Edit button: once clicked this button will direct you to the role form where you will select the role of the user
-            <img src="images/end_user_images/edit_role.png" alt="User form" style="border: 2px solid  gray;"><br>
+   <li><b>Edit Role child tab:</b><br>
+       <b>Click the Edit button:</b> This button allows you to view or edit the role form where you will select the role of the user
+            <img src="images/end_user_images/edit_role.png" alt="User form" class="pic"><br>
             On click of this edit button a message pops up on the screen asking whether to perform the operation in edit mode or in view mode. There are three options available to be selected:
-            <img src="images/end_user_images/prompt_role.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+            <img src="images/end_user_images/prompt_role.jpg" alt="User form" class="pic"><br>
             <ul>
-                •	Yes, open editable draft: Clicking this means you want to edit the form and it should proceed to create a             workflow draft. If you want to edit the role form this option must be chosen
-                •	No, open in view mode: Clicking this option means that you want the system to open in view mode. Clicking this       will only view the roles and the form cannot be edited
-                •	Cancel: This option closes this message and no further action is performed
+               <b>•	Yes, open editable draft:</b> Clicking this means you want to edit the form and it should proceed to create a             workflow draft. If you want to edit the role form this option must be chosen<br>
+                <b>•	No, open in view mode:</b> Clicking this option means that you want the system to open in view mode. Clicking this       will only view the roles and the form cannot be edited<br>
+                <b>•	Cancel:</b> This option closes this message and no further action is performed<br>
             </ul>
-    2.	Assign Role: <br>
+    </li>
+    <li><b>Assign Role:</b> <br>
         This page comes up on click of the edit button and it contains a list of available roles. This is where you will assign a role to the user created. The box on the right-hand side of the page labelled "Available roles" contains the roles available in the system, and the box on the left-hand side of the page labelled "Assigned roles" is where the roles selected will be moved to. 
-            <img src="images/end_user_images/assign_role.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+            <img src="images/end_user_images/assign_role.jpg" alt="User form" class="pic pic-resize"><br>
         The arrows in the middle of the two boxes are for moving the roles from the available box to the assigned box and vice versa.
-            <img src="images/end_user_images/arrows_role.png" alt="User form" style="border: 2px solid  gray;"><br>
-    3.	Save assigned role:<br>
+            <img src="images/end_user_images/arrows_role.png" alt="User form" class="pic"><br>
+    </li>
+    <li><b>Save assigned role:</b><br>
         After you have assigned one or more roles to the user the next step is to save the page. This step must not be skipped because the role will not be assigned to the user if the page is not saved. There are two buttons available to perform this action:
-            <img src="images/end_user_images/save_role..png" alt="User form" style="border: 2px solid  gray;"><br>
+            <img src="images/end_user_images/save_role..png" alt="User form" class="pic"><br>
         <ul>
-            •	Save button: This button only saves the page.<br>
-            •	Save and close button: This button saves the page and also close the page. Clicking this button saves and redirects       you to the main form.<br>
-            •	Close button: This button close this page<br>
+            <b>  o	Save button:</b> This button only saves the page.<br>
+            <b>  o	Save and close button:</b> This button saves the page and also close the page. Clicking this button saves and redirects       you to the main form.<br>
+            <b>  o	Close button:</b> This button close this page<br>
         </ul>
+    </li>
 </ol>
 
-### LOGIN EVENT
+### Login Event
 Login Events is another child tab in the user applet, it contains records or logs that capture the specifics of user login activities within the system.<br>
 <img src="images/end_user_images/login_event.jpg" alt="User form" style="border: 2px solid  gray;"><br>
 <table>
@@ -73,7 +76,7 @@ Login Events is another child tab in the user applet, it contains records or log
 
 ### Branch Details
 This child tab contains the information of the branch where this user is assigned or works. A branch is a separate location of the company that is separated from the main office. These details include:<br>
-        <img src="images/end_user_images/branch_detail.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+    <img src="images/end_user_images/branch_detail.jpg" alt="User form" class="pic"><br>
 
 <table>
     <tr>
@@ -107,7 +110,7 @@ This child tab contains the information of the branch where this user is assigne
 
 ### Account Details
 This child tab contains the details of some activities related to this particular account.
-        <img src="images/end_user_images/account_details.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/account_details.jpg" alt="User form" class="pic"><br>
 These activities are:
 <table>
     <tr>
@@ -135,7 +138,7 @@ These activities are:
 
 ### Audit
 This section is automatically filled by the system with the details of the account used in creating, inspecting or modifying this account. These details include:
-        <img src="images/end_user_images/audit.jpg" alt="User form" style="border: 2px solid  gray;"><br>
+        <img src="images/end_user_images/audit.jpg" alt="User form" class="pic"><br>
 
 <table>
     <tr>
